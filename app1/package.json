@@ -1,0 +1,20 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "esto solo es un ejemplo",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --require babel-register src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ejemplo",
+    "aprender",
+    "prueba"
+  ],
+  "author": "yo mismo",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  }
+}

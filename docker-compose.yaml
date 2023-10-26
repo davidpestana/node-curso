@@ -1,0 +1,10 @@
+services:
+  node:
+    build:
+      context: .
+    volumes:
+      - ./:/app
+    ports:
+      - 8080:8080
+    working_dir: /app/express
+    command: ['npm', 'start']
